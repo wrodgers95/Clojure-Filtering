@@ -21,5 +21,4 @@
                        purchases)
      JSONfile (json/write-str purchases)]
      (spit "new-purchases.json" JSONfile))
-     (println "What category would you like to filter by...")
   )
